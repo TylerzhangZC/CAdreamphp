@@ -1,0 +1,1075 @@
+[ 2013-12-25T08:32:05+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000663s ]
+INFO: Run load_lang Behavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001376s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001482s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025892s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000757s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000709s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000367s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000587s ]
+INFO: Run content_replace Behavior [ RunTime:0.024930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027716s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2013-12-25T08:32:16+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001251s ]
+INFO: Run load_lang Behavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `rhadmin` [ RunTime:0.002937s ]
+SQL: SELECT * FROM `rhadmin` WHERE ( `email` = '53911752@qq.com' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: UPDATE `rhadmin` SET `last_time`=1387931536,`last_ip`='127.0.0.1' WHERE ( `userid` = 1 ) [ RunTime:0.000328s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001646s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\PHPWeb\data\runtime\Cache\admin\93455158fc92285fa549de1f195e0dc9.php 第 7 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.047639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047754s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000542s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000554s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000435s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000689s ]
+INFO: Run content_replace Behavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000868s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2013-12-25T08:32:19+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001253s ]
+INFO: Run load_lang Behavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001923s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002149s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: admin D:\PHPWeb\data\runtime\Cache\admin\eac52eb4beb26b1a7cc980f46d91756f.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.059579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059776s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001285s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001227s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000945s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001537s ]
+INFO: Run content_replace Behavior [ RunTime:0.002869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008576s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002025s ]
+
+[ 2013-12-25T08:32:20+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000889s ]
+INFO: Run load_lang Behavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+NOTIC: [8] Use of undefined constant gd_info - assumed 'gd_info' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 52 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user 'SYSTEM'@'localhost' (using password: NO) D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_LANGUAGE - assumed 'HTTP_ACCEPT_LANGUAGE' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_ENCODING - assumed 'HTTP_ACCEPT_ENCODING' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 70 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000895s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\PHPWeb\data\runtime\Cache\admin\4d2596d1501116a415c5b5a06782a433.php 第 7 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.051786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051915s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000726s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000559s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000671s ]
+INFO: Run content_replace Behavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000779s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2013-12-25T08:32:20+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000862s ]
+INFO: Run load_lang Behavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001139s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001262s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042700s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000825s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000791s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000606s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000921s ]
+INFO: Run content_replace Behavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004591s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2013-12-25T08:32:34+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left&ik=setting
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001141s ]
+INFO: Run load_lang Behavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001860s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027324s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001144s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001166s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000885s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001384s ]
+INFO: Run content_replace Behavior [ RunTime:0.002117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007130s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2013-12-25T08:32:34+08:00 ] 127.0.0.1 /index.php?g=admin&m=setting&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001200s ]
+INFO: Run load_lang Behavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004186s ]
+NOTIC: [2048] Declaration of settingModel::_before_write() should be compatible with that of Model::_before_write() D:\PHPWeb\app\Lib\Model\settingModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `rhsetting` [ RunTime:0.027243s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003011s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003196s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.057254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000839s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000815s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000641s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000995s ]
+INFO: Run content_replace Behavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004976s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2013-12-25T08:32:37+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left&ik=user
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000655s ]
+INFO: Run load_lang Behavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000742s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012180s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000444s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000514s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000485s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000567s ]
+INFO: Run content_replace Behavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003025s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2013-12-25T08:32:37+08:00 ] 127.0.0.1 /index.php?g=admin&m=user&a=manage
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000669s ]
+INFO: Run load_lang Behavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+SQL: SHOW COLUMNS FROM `rhuser` [ RunTime:0.002525s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhuser` ORDER BY addtime DESC LIMIT 1   [ RunTime:0.021479s ]
+SQL: SELECT `userid` FROM `rhuser` ORDER BY addtime DESC LIMIT 0,20   [ RunTime:0.000408s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\admin\userAction.class.php 第 36 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `rhuser` WHERE ( `isenable` = 1 ) LIMIT 1   [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: list D:\PHPWeb\app\Lib\Action\admin\userAction.class.php 第 45 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001450s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001591s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024123s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000463s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000480s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000366s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000572s ]
+INFO: Run content_replace Behavior [ RunTime:0.030562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032749s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001427s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2013-12-25T08:32:38+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left&ik=setting
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001046s ]
+INFO: Run load_lang Behavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001815s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001956s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015736s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000656s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000802s ]
+INFO: Run content_replace Behavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004361s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2013-12-25T08:32:38+08:00 ] 127.0.0.1 /index.php?g=admin&m=setting&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000804s ]
+INFO: Run load_lang Behavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+NOTIC: [2048] Declaration of settingModel::_before_write() should be compatible with that of Model::_before_write() D:\PHPWeb\app\Lib\Model\settingModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `rhsetting` [ RunTime:0.001634s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001316s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001447s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.034126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034314s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001688s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001762s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002554s ]
+INFO: Run content_replace Behavior [ RunTime:0.002254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010316s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002334s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002499s ]
+
+[ 2013-12-25T08:32:42+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left&ik=user
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001012s ]
+INFO: Run load_lang Behavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002937s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003191s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020463s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000955s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001013s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000780s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001216s ]
+INFO: Run content_replace Behavior [ RunTime:0.001720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006091s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2013-12-25T08:32:42+08:00 ] 127.0.0.1 /index.php?g=admin&m=user&a=manage
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001410s ]
+INFO: Run load_lang Behavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+SQL: SHOW COLUMNS FROM `rhuser` [ RunTime:0.002815s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhuser` ORDER BY addtime DESC LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT `userid` FROM `rhuser` ORDER BY addtime DESC LIMIT 0,20   [ RunTime:0.000315s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\admin\userAction.class.php 第 36 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `rhuser` WHERE ( `isenable` = 1 ) LIMIT 1   [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: list D:\PHPWeb\app\Lib\Action\admin\userAction.class.php 第 45 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001375s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001523s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020911s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000810s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000818s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000635s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000887s ]
+INFO: Run content_replace Behavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004557s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2013-12-25T08:32:43+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left&ik=group
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000666s ]
+INFO: Run load_lang Behavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000716s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012679s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000649s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000829s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000719s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: Run content_replace Behavior [ RunTime:0.001157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004657s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2013-12-25T08:32:44+08:00 ] 127.0.0.1 /index.php?g=admin&m=group&a=setting
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: Run load_lang Behavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+SQL: SHOW COLUMNS FROM `rhgroup` [ RunTime:0.004423s ]
+SQL: SHOW COLUMNS FROM `rhgroup_setting` [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `rhuser` [ RunTime:0.001666s ]
+SQL: SHOW COLUMNS FROM `rhgroup_topics` [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `rhgroup_topics_comments` [ RunTime:0.001435s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009354s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009462s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025963s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001165s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001489s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002581s ]
+INFO: Run content_replace Behavior [ RunTime:0.002668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010428s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2013-12-25T08:32:45+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left&ik=article
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000657s ]
+INFO: Run load_lang Behavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000727s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010211s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000737s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000752s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000369s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000585s ]
+INFO: Run content_replace Behavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003519s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2013-12-25T08:32:46+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left&ik=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001559s ]
+INFO: Run load_lang Behavior [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003826s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001049s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001171s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014409s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000448s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000464s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000382s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000875s ]
+INFO: Run content_replace Behavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003416s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2013-12-25T08:32:46+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001181s ]
+INFO: Run load_lang Behavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+NOTIC: [8] Use of undefined constant gd_info - assumed 'gd_info' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 52 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user 'SYSTEM'@'localhost' (using password: NO) D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_LANGUAGE - assumed 'HTTP_ACCEPT_LANGUAGE' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_ENCODING - assumed 'HTTP_ACCEPT_ENCODING' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 70 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000800s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\PHPWeb\data\runtime\Cache\admin\4d2596d1501116a415c5b5a06782a433.php 第 7 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020827s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001046s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000893s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002423s ]
+INFO: Run content_replace Behavior [ RunTime:0.003747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009399s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2013-12-25T08:32:47+08:00 ] 127.0.0.1 /index.php?g=admin&m=cache&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000744s ]
+INFO: Run load_lang Behavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000737s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000601s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000782s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000550s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000671s ]
+INFO: Run content_replace Behavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003708s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2013-12-25T08:32:48+08:00 ] 127.0.0.1 /index.php?g=admin&m=words&a=lists
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001491s ]
+INFO: Run load_lang Behavior [ RunTime:0.002543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004265s ]
+SQL: SHOW COLUMNS FROM `rhwords` [ RunTime:0.001667s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhwords` LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `rhwords` LIMIT 0,20   [ RunTime:0.000401s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\admin\wordsAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: list D:\PHPWeb\app\Lib\Action\admin\wordsAction.class.php 第 76 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002292s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002418s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039105s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001385s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001525s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001253s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001113s ]
+INFO: Run content_replace Behavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006892s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2013-12-25T08:32:50+08:00 ] 127.0.0.1 /index.php?g=admin&m=home&a=page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001222s ]
+INFO: Run load_lang Behavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003471s ]
+SQL: SHOW COLUMNS FROM `rhhome_info` [ RunTime:0.002408s ]
+SQL: SELECT * FROM `rhhome_info` WHERE ( `infokey` = 'about' ) LIMIT 1   [ RunTime:0.000588s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001741s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant infocontent - assumed 'infocontent' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 26 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020083s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000966s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000923s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000724s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001135s ]
+INFO: Run content_replace Behavior [ RunTime:0.001449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2013-12-25T08:32:50+08:00 ] 127.0.0.1 /index.php?g=admin&m=cache&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001223s ]
+INFO: Run load_lang Behavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003111s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001514s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018603s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001171s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000886s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001129s ]
+INFO: Run content_replace Behavior [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006614s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001205s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2013-12-25T08:32:51+08:00 ] 127.0.0.1 /index.php?g=admin&m=words&a=lists
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: Run load_lang Behavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `rhwords` [ RunTime:0.001788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhwords` LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT * FROM `rhwords` LIMIT 0,20   [ RunTime:0.000288s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\admin\wordsAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: list D:\PHPWeb\app\Lib\Action\admin\wordsAction.class.php 第 76 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001022s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014633s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000620s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000641s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000484s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000774s ]
+INFO: Run content_replace Behavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003771s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2013-12-25T08:32:51+08:00 ] 127.0.0.1 /index.php?g=admin&m=home&a=page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001666s ]
+INFO: Run load_lang Behavior [ RunTime:0.002902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004780s ]
+SQL: SHOW COLUMNS FROM `rhhome_info` [ RunTime:0.001667s ]
+SQL: SELECT * FROM `rhhome_info` WHERE ( `infokey` = 'about' ) LIMIT 1   [ RunTime:0.000367s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001883s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant infocontent - assumed 'infocontent' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 26 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012867s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000982s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000985s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000878s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001083s ]
+INFO: Run content_replace Behavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005437s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2013-12-25T08:32:57+08:00 ] 127.0.0.1 /index.php?g=admin&m=home&a=page&infokey=contact
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001729s ]
+INFO: Run load_lang Behavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004450s ]
+SQL: SHOW COLUMNS FROM `rhhome_info` [ RunTime:0.001300s ]
+SQL: SELECT * FROM `rhhome_info` WHERE ( `infokey` = 'contact' ) LIMIT 1   [ RunTime:0.000380s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001662s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant infocontent - assumed 'infocontent' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 26 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014083s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000983s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000991s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001086s ]
+INFO: Run content_replace Behavior [ RunTime:0.002267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006467s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001821s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2013-12-25T08:32:59+08:00 ] 127.0.0.1 /index.php?g=admin&m=home&a=page&infokey=agreement
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001193s ]
+INFO: Run load_lang Behavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+SQL: SHOW COLUMNS FROM `rhhome_info` [ RunTime:0.002280s ]
+SQL: SELECT * FROM `rhhome_info` WHERE ( `infokey` = 'agreement' ) LIMIT 1   [ RunTime:0.000359s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002695s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002846s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant infocontent - assumed 'infocontent' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 26 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017166s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001096s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001001s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000890s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001114s ]
+INFO: Run content_replace Behavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005663s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2013-12-25T08:33:00+08:00 ] 127.0.0.1 /index.php?g=admin&m=home&a=page&infokey=privacy
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002313s ]
+INFO: Run load_lang Behavior [ RunTime:0.004329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006999s ]
+SQL: SHOW COLUMNS FROM `rhhome_info` [ RunTime:0.036870s ]
+SQL: SELECT * FROM `rhhome_info` WHERE ( `infokey` = 'privacy' ) LIMIT 1   [ RunTime:0.000574s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003819s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003966s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant infocontent - assumed 'infocontent' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 26 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001918s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002260s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001774s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002148s ]
+INFO: Run content_replace Behavior [ RunTime:0.002430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010958s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003207s ]
+
+[ 2013-12-25T08:33:02+08:00 ] 127.0.0.1 /index.php?g=admin&m=home&a=page&infokey=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001183s ]
+INFO: Run load_lang Behavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002987s ]
+SQL: SHOW COLUMNS FROM `rhhome_info` [ RunTime:0.001465s ]
+SQL: SELECT * FROM `rhhome_info` WHERE ( `infokey` = 'about' ) LIMIT 1   [ RunTime:0.000425s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001913s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant infocontent - assumed 'infocontent' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 26 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015409s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001159s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001390s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001735s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002036s ]
+INFO: Run content_replace Behavior [ RunTime:0.002229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008896s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002187s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002282s ]
+
+[ 2013-12-25T08:33:04+08:00 ] 127.0.0.1 /index.php?g=admin&m=words&a=lists
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003205s ]
+INFO: Run load_lang Behavior [ RunTime:0.003851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007406s ]
+SQL: SHOW COLUMNS FROM `rhwords` [ RunTime:0.003129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhwords` LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `rhwords` LIMIT 0,20   [ RunTime:0.000319s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\admin\wordsAction.class.php 第 73 行.
+NOTIC: [8] Undefined variable: list D:\PHPWeb\app\Lib\Action\admin\wordsAction.class.php 第 76 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002645s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002796s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030292s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001968s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002646s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002125s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002604s ]
+INFO: Run content_replace Behavior [ RunTime:0.002447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012423s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002671s ]
+
+[ 2013-12-25T08:33:05+08:00 ] 127.0.0.1 /index.php?g=admin&m=cache&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001237s ]
+INFO: Run load_lang Behavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001513s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 24 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 25 行.
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 26 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\PHPWeb\data\runtime\Cache\admin\9aaffffa2f898652ac5ea7efa05970b8.php 第 28 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022538s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001376s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001352s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001208s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001575s ]
+INFO: Run content_replace Behavior [ RunTime:0.001925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007877s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2013-12-25T08:33:06+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001848s ]
+INFO: Run load_lang Behavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+NOTIC: [8] Use of undefined constant gd_info - assumed 'gd_info' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 52 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user 'SYSTEM'@'localhost' (using password: NO) D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_LANGUAGE - assumed 'HTTP_ACCEPT_LANGUAGE' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_ENCODING - assumed 'HTTP_ACCEPT_ENCODING' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 70 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005866s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006157s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\PHPWeb\data\runtime\Cache\admin\4d2596d1501116a415c5b5a06782a433.php 第 7 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022307s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001517s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001438s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001322s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001681s ]
+INFO: Run content_replace Behavior [ RunTime:0.002176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008453s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2013-12-25T08:33:07+08:00 ] 127.0.0.1 /index.php?g=admin&m=home&a=page
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001665s ]
+INFO: Run load_lang Behavior [ RunTime:0.002328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004200s ]
+SQL: SHOW COLUMNS FROM `rhhome_info` [ RunTime:0.001231s ]
+SQL: SELECT * FROM `rhhome_info` WHERE ( `infokey` = 'about' ) LIMIT 1   [ RunTime:0.000405s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002794s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 18 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant url - assumed 'url' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant text - assumed 'text' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 20 行.
+NOTIC: [8] Use of undefined constant infocontent - assumed 'infocontent' D:\PHPWeb\data\runtime\Cache\admin\7c5ff50a3db32177f58ef3cc8d592ceb.php 第 26 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017644s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001499s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001413s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001754s ]
+INFO: Run content_replace Behavior [ RunTime:0.002066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008682s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002088s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2013-12-25T08:33:08+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001657s ]
+INFO: Run load_lang Behavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002844s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: admin D:\PHPWeb\data\runtime\Cache\admin\eac52eb4beb26b1a7cc980f46d91756f.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012995s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002386s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001522s ]
+INFO: Run content_replace Behavior [ RunTime:0.001544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010604s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2013-12-25T08:33:09+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001912s ]
+INFO: Run load_lang Behavior [ RunTime:0.002707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004865s ]
+NOTIC: [8] Use of undefined constant gd_info - assumed 'gd_info' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 52 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: Access denied for user 'SYSTEM'@'localhost' (using password: NO) D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [2] mysql_get_server_info() [<a href='function.mysql-get-server-info'>function.mysql-get-server-info</a>]: A link to the server could not be established D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 63 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_LANGUAGE - assumed 'HTTP_ACCEPT_LANGUAGE' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 64 行.
+NOTIC: [8] Use of undefined constant DOCUMENT_ROOT - assumed 'DOCUMENT_ROOT' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant HTTP_ACCEPT_ENCODING - assumed 'HTTP_ACCEPT_ENCODING' D:\PHPWeb\app\Lib\Action\admin\indexAction.class.php 第 70 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002389s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002517s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title D:\PHPWeb\data\runtime\Cache\admin\4d2596d1501116a415c5b5a06782a433.php 第 7 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.023208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023307s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001032s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000991s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000983s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001709s ]
+INFO: Run content_replace Behavior [ RunTime:0.001693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006677s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2013-12-25T08:33:09+08:00 ] 127.0.0.1 /index.php?g=admin&m=index&a=left
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000962s ]
+INFO: Run load_lang Behavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001688s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012520s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000652s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000674s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000834s ]
+INFO: Run content_replace Behavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004055s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2013-12-25T08:33:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002742s ]
+INFO: Run load_lang Behavior [ RunTime:0.002471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005506s ]
+SQL: SHOW COLUMNS FROM `rhmessage` [ RunTime:0.002281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhmessage` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `rhgroup` [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `rhuser` [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `rhgroup_topics` [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `rharticle` [ RunTime:0.001226s ]
+SQL: SELECT `groupid` FROM `rhgroup` WHERE ( `isshow` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\groupModel.class.php 第 26 行.
+SQL: SELECT `userid`,`topicid`,`groupid`,`content`,`title` FROM `rhgroup_topics` WHERE ( `groupid` > 0 ) AND ( `isaudit` = 0 ) ORDER BY istop desc,addtime desc LIMIT 15   [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\group_topicsModel.class.php 第 50 行.
+SQL: SELECT `userid` FROM `rhuser` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.000294s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Model\userModel.class.php 第 49 行.
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\userModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rharticle_item` [ RunTime:0.002624s ]
+SQL: SELECT * FROM `rharticle_item` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 8   [ RunTime:0.000583s ]
+SQL: SELECT * FROM `rhgroup` WHERE ( `isrecommend` = 1 ) ORDER BY groupid asc LIMIT 10   [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\groupModel.class.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\home\indexAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `rhuser` LIMIT 1   [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: arrRecommendGroup D:\PHPWeb\app\Lib\Action\home\indexAction.class.php 第 38 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002357s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002501s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' D:\PHPWeb\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.074616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074730s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001148s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001367s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001459s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001816s ]
+INFO: Run content_replace Behavior [ RunTime:0.002153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008253s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2013-12-25T08:35:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+INFO: Run load_lang Behavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+SQL: SHOW COLUMNS FROM `rhmessage` [ RunTime:0.002123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhmessage` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `rhgroup` [ RunTime:0.003265s ]
+SQL: SHOW COLUMNS FROM `rhuser` [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `rhgroup_topics` [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `rharticle` [ RunTime:0.001799s ]
+SQL: SELECT `groupid` FROM `rhgroup` WHERE ( `isshow` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000305s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\groupModel.class.php 第 26 行.
+SQL: SELECT `userid`,`topicid`,`groupid`,`content`,`title` FROM `rhgroup_topics` WHERE ( `groupid` > 0 ) AND ( `isaudit` = 0 ) ORDER BY istop desc,addtime desc LIMIT 15   [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\group_topicsModel.class.php 第 50 行.
+SQL: SELECT `userid` FROM `rhuser` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.000203s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Model\userModel.class.php 第 49 行.
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\userModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rharticle_item` [ RunTime:0.001787s ]
+SQL: SELECT * FROM `rharticle_item` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 8   [ RunTime:0.000412s ]
+SQL: SELECT * FROM `rhgroup` WHERE ( `isrecommend` = 1 ) ORDER BY groupid asc LIMIT 10   [ RunTime:0.000320s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\groupModel.class.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\home\indexAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `rhuser` LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: arrRecommendGroup D:\PHPWeb\app\Lib\Action\home\indexAction.class.php 第 38 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000895s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' D:\PHPWeb\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.028598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028701s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000590s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000552s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000438s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000745s ]
+INFO: Run content_replace Behavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003422s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000823s ]
+

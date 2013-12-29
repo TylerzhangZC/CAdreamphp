@@ -1,0 +1,43 @@
+[ 2013-12-26T07:46:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.020649s ]
+INFO: Run load_lang Behavior [ RunTime:0.028172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049005s ]
+SQL: SHOW COLUMNS FROM `rhmessage` [ RunTime:0.231944s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `rhmessage` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.097833s ]
+SQL: SHOW COLUMNS FROM `rhgroup` [ RunTime:0.056885s ]
+SQL: SHOW COLUMNS FROM `rhuser` [ RunTime:0.054059s ]
+SQL: SHOW COLUMNS FROM `rhgroup_topics` [ RunTime:0.024869s ]
+SQL: SHOW COLUMNS FROM `rharticle` [ RunTime:0.046677s ]
+SQL: SELECT `groupid` FROM `rhgroup` WHERE ( `isshow` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\groupModel.class.php 第 26 行.
+SQL: SELECT `userid`,`topicid`,`groupid`,`content`,`title` FROM `rhgroup_topics` WHERE ( `groupid` > 0 ) AND ( `isaudit` = 0 ) ORDER BY istop desc,addtime desc LIMIT 15   [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\group_topicsModel.class.php 第 50 行.
+SQL: SELECT `userid` FROM `rhuser` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.000158s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Model\userModel.class.php 第 49 行.
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\userModel.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `rharticle_item` [ RunTime:0.016083s ]
+SQL: SELECT * FROM `rharticle_item` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 8   [ RunTime:0.000387s ]
+SQL: SELECT * FROM `rhgroup` WHERE ( `isrecommend` = 1 ) ORDER BY groupid asc LIMIT 10   [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: result D:\PHPWeb\app\Lib\Model\groupModel.class.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\PHPWeb\app\Lib\Action\home\indexAction.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `rhuser` LIMIT 1   [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: arrRecommendGroup D:\PHPWeb\app\Lib\Action\home\indexAction.class.php 第 38 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.050722s ]
+INFO: [ view_template ] --END-- [ RunTime:0.050805s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant userid - assumed 'userid' D:\PHPWeb\data\runtime\Cache\home\11e2f12d84b746b76491e3160c81a5b0.php 第 124 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.173557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173659s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.009154s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005177s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.014138s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.013565s ]
+INFO: Run content_replace Behavior [ RunTime:0.068469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.110810s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.011229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011295s ]
+
